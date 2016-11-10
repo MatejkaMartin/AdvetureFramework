@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA5A2A6A1DD5249B00977564 /* AdventuraFW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA5A2A601DD5249B00977564 /* AdventuraFW.framework */; };
+		EA5A2A6F1DD5249B00977564 /* AdventuraFWTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A6E1DD5249B00977564 /* AdventuraFWTests.swift */; };
+		EA5A2A711DD5249B00977564 /* AdventuraFW.h in Headers */ = {isa = PBXBuildFile; fileRef = EA5A2A631DD5249B00977564 /* AdventuraFW.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA5A2A9C1DD524BA00977564 /* AScenarioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A7A1DD524BA00977564 /* AScenarioManager.swift */; };
+		EA5A2A9D1DD524BA00977564 /* BasicActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A7B1DD524BA00977564 /* BasicActions.swift */; };
+		EA5A2A9E1DD524BA00977564 /* IAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A7C1DD524BA00977564 /* IAction.swift */; };
+		EA5A2A9F1DD524BA00977564 /* IAuthor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A7D1DD524BA00977564 /* IAuthor.swift */; };
+		EA5A2AA01DD524BA00977564 /* IBag.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A7E1DD524BA00977564 /* IBag.swift */; };
+		EA5A2AA11DD524BA00977564 /* IBagG.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A7F1DD524BA00977564 /* IBagG.swift */; };
+		EA5A2AA21DD524BA00977564 /* IBrouadcaster.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A801DD524BA00977564 /* IBrouadcaster.swift */; };
+		EA5A2AA31DD524BA00977564 /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A811DD524BA00977564 /* Icon.swift */; };
+		EA5A2AA41DD524BA00977564 /* IGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A821DD524BA00977564 /* IGame.swift */; };
+		EA5A2AA51DD524BA00977564 /* IGameG.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A831DD524BA00977564 /* IGameG.swift */; };
+		EA5A2AA61DD524BA00977564 /* IGSMFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A841DD524BA00977564 /* IGSMFactory.swift */; };
+		EA5A2AA71DD524BA00977564 /* IGSMFactoryG.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A851DD524BA00977564 /* IGSMFactoryG.swift */; };
+		EA5A2AA81DD524BA00977564 /* IGSMFactoryProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A861DD524BA00977564 /* IGSMFactoryProduct.swift */; };
+		EA5A2AA91DD524BA00977564 /* IGSMFactoryProductG.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A871DD524BA00977564 /* IGSMFactoryProductG.swift */; };
+		EA5A2AAA1DD524BA00977564 /* IItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A881DD524BA00977564 /* IItem.swift */; };
+		EA5A2AAB1DD524BA00977564 /* IItemContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A891DD524BA00977564 /* IItemContainer.swift */; };
+		EA5A2AAC1DD524BA00977564 /* IItemContainerG.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A8A1DD524BA00977564 /* IItemContainerG.swift */; };
+		EA5A2AAD1DD524BA00977564 /* IItemG.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A8B1DD524BA00977564 /* IItemG.swift */; };
+		EA5A2AAE1DD524BA00977564 /* IListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A8C1DD524BA00977564 /* IListener.swift */; };
+		EA5A2AAF1DD524BA00977564 /* INamed.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A8D1DD524BA00977564 /* INamed.swift */; };
+		EA5A2AB01DD524BA00977564 /* IScenarioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A8E1DD524BA00977564 /* IScenarioManager.swift */; };
+		EA5A2AB11DD524BA00977564 /* IScenarioManagerG.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A8F1DD524BA00977564 /* IScenarioManagerG.swift */; };
+		EA5A2AB21DD524BA00977564 /* ISpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A901DD524BA00977564 /* ISpace.swift */; };
+		EA5A2AB31DD524BA00977564 /* ISpaceG.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A911DD524BA00977564 /* ISpaceG.swift */; };
+		EA5A2AB41DD524BA00977564 /* IUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A921DD524BA00977564 /* IUI.swift */; };
+		EA5A2AB51DD524BA00977564 /* IUIG.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A931DD524BA00977564 /* IUIG.swift */; };
+		EA5A2AB61DD524BA00977564 /* IWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A941DD524BA00977564 /* IWorld.swift */; };
+		EA5A2AB71DD524BA00977564 /* IWorldG.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A951DD524BA00977564 /* IWorldG.swift */; };
+		EA5A2AB81DD524BA00977564 /* Limits.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A961DD524BA00977564 /* Limits.swift */; };
+		EA5A2AB91DD524BA00977564 /* Scenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A971DD524BA00977564 /* Scenario.swift */; };
+		EA5A2ABA1DD524BA00977564 /* ScenarioErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A981DD524BA00977564 /* ScenarioErrors.swift */; };
+		EA5A2ABB1DD524BA00977564 /* ScenarioStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A991DD524BA00977564 /* ScenarioStep.swift */; };
+		EA5A2ABC1DD524BA00977564 /* TypeOfScenario.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A9A1DD524BA00977564 /* TypeOfScenario.swift */; };
+		EA5A2ABD1DD524BA00977564 /* TypeOfStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5A2A9B1DD524BA00977564 /* TypeOfStep.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA5A2A6B1DD5249B00977564 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA5A2A571DD5249B00977564 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA5A2A5F1DD5249B00977564;
+			remoteInfo = AdventuraFW;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA5A2A601DD5249B00977564 /* AdventuraFW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AdventuraFW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5A2A631DD5249B00977564 /* AdventuraFW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AdventuraFW.h; sourceTree = "<group>"; };
+		EA5A2A641DD5249B00977564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA5A2A691DD5249B00977564 /* AdventuraFWTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdventuraFWTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA5A2A6E1DD5249B00977564 /* AdventuraFWTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventuraFWTests.swift; sourceTree = "<group>"; };
+		EA5A2A701DD5249B00977564 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA5A2A7A1DD524BA00977564 /* AScenarioManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AScenarioManager.swift; sourceTree = "<group>"; };
+		EA5A2A7B1DD524BA00977564 /* BasicActions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasicActions.swift; sourceTree = "<group>"; };
+		EA5A2A7C1DD524BA00977564 /* IAction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAction.swift; sourceTree = "<group>"; };
+		EA5A2A7D1DD524BA00977564 /* IAuthor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAuthor.swift; sourceTree = "<group>"; };
+		EA5A2A7E1DD524BA00977564 /* IBag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBag.swift; sourceTree = "<group>"; };
+		EA5A2A7F1DD524BA00977564 /* IBagG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBagG.swift; sourceTree = "<group>"; };
+		EA5A2A801DD524BA00977564 /* IBrouadcaster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBrouadcaster.swift; sourceTree = "<group>"; };
+		EA5A2A811DD524BA00977564 /* Icon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
+		EA5A2A821DD524BA00977564 /* IGame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGame.swift; sourceTree = "<group>"; };
+		EA5A2A831DD524BA00977564 /* IGameG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGameG.swift; sourceTree = "<group>"; };
+		EA5A2A841DD524BA00977564 /* IGSMFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGSMFactory.swift; sourceTree = "<group>"; };
+		EA5A2A851DD524BA00977564 /* IGSMFactoryG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGSMFactoryG.swift; sourceTree = "<group>"; };
+		EA5A2A861DD524BA00977564 /* IGSMFactoryProduct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGSMFactoryProduct.swift; sourceTree = "<group>"; };
+		EA5A2A871DD524BA00977564 /* IGSMFactoryProductG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IGSMFactoryProductG.swift; sourceTree = "<group>"; };
+		EA5A2A881DD524BA00977564 /* IItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IItem.swift; sourceTree = "<group>"; };
+		EA5A2A891DD524BA00977564 /* IItemContainer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IItemContainer.swift; sourceTree = "<group>"; };
+		EA5A2A8A1DD524BA00977564 /* IItemContainerG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IItemContainerG.swift; sourceTree = "<group>"; };
+		EA5A2A8B1DD524BA00977564 /* IItemG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IItemG.swift; sourceTree = "<group>"; };
+		EA5A2A8C1DD524BA00977564 /* IListener.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IListener.swift; sourceTree = "<group>"; };
+		EA5A2A8D1DD524BA00977564 /* INamed.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = INamed.swift; sourceTree = "<group>"; };
+		EA5A2A8E1DD524BA00977564 /* IScenarioManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IScenarioManager.swift; sourceTree = "<group>"; };
+		EA5A2A8F1DD524BA00977564 /* IScenarioManagerG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IScenarioManagerG.swift; sourceTree = "<group>"; };
+		EA5A2A901DD524BA00977564 /* ISpace.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISpace.swift; sourceTree = "<group>"; };
+		EA5A2A911DD524BA00977564 /* ISpaceG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ISpaceG.swift; sourceTree = "<group>"; };
+		EA5A2A921DD524BA00977564 /* IUI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IUI.swift; sourceTree = "<group>"; };
+		EA5A2A931DD524BA00977564 /* IUIG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IUIG.swift; sourceTree = "<group>"; };
+		EA5A2A941DD524BA00977564 /* IWorld.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IWorld.swift; sourceTree = "<group>"; };
+		EA5A2A951DD524BA00977564 /* IWorldG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IWorldG.swift; sourceTree = "<group>"; };
+		EA5A2A961DD524BA00977564 /* Limits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Limits.swift; sourceTree = "<group>"; };
+		EA5A2A971DD524BA00977564 /* Scenario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scenario.swift; sourceTree = "<group>"; };
+		EA5A2A981DD524BA00977564 /* ScenarioErrors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScenarioErrors.swift; sourceTree = "<group>"; };
+		EA5A2A991DD524BA00977564 /* ScenarioStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScenarioStep.swift; sourceTree = "<group>"; };
+		EA5A2A9A1DD524BA00977564 /* TypeOfScenario.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeOfScenario.swift; sourceTree = "<group>"; };
+		EA5A2A9B1DD524BA00977564 /* TypeOfStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TypeOfStep.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA5A2A5C1DD5249B00977564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5A2A661DD5249B00977564 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5A2A6A1DD5249B00977564 /* AdventuraFW.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA5A2A561DD5249B00977564 = {
+			isa = PBXGroup;
+			children = (
+				EA5A2A621DD5249B00977564 /* AdventuraFW */,
+				EA5A2A6D1DD5249B00977564 /* AdventuraFWTests */,
+				EA5A2A611DD5249B00977564 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA5A2A611DD5249B00977564 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A2A601DD5249B00977564 /* AdventuraFW.framework */,
+				EA5A2A691DD5249B00977564 /* AdventuraFWTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA5A2A621DD5249B00977564 /* AdventuraFW */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A2AC11DD524FE00977564 /* fw.game_gui */,
+				EA5A2ABF1DD524ED00977564 /* fw.game_txt */,
+				EA5A2ABE1DD524E200977564 /* fw.game_scenario */,
+				EA5A2A631DD5249B00977564 /* AdventuraFW.h */,
+				EA5A2A641DD5249B00977564 /* Info.plist */,
+			);
+			path = AdventuraFW;
+			sourceTree = "<group>";
+		};
+		EA5A2A6D1DD5249B00977564 /* AdventuraFWTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A2A6E1DD5249B00977564 /* AdventuraFWTests.swift */,
+				EA5A2A701DD5249B00977564 /* Info.plist */,
+			);
+			path = AdventuraFWTests;
+			sourceTree = "<group>";
+		};
+		EA5A2ABE1DD524E200977564 /* fw.game_scenario */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A2A7A1DD524BA00977564 /* AScenarioManager.swift */,
+				EA5A2A961DD524BA00977564 /* Limits.swift */,
+				EA5A2A971DD524BA00977564 /* Scenario.swift */,
+				EA5A2A981DD524BA00977564 /* ScenarioErrors.swift */,
+				EA5A2A991DD524BA00977564 /* ScenarioStep.swift */,
+				EA5A2A9A1DD524BA00977564 /* TypeOfScenario.swift */,
+				EA5A2A9B1DD524BA00977564 /* TypeOfStep.swift */,
+			);
+			name = fw.game_scenario;
+			sourceTree = "<group>";
+		};
+		EA5A2ABF1DD524ED00977564 /* fw.game_txt */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A2A7B1DD524BA00977564 /* BasicActions.swift */,
+				EA5A2A7C1DD524BA00977564 /* IAction.swift */,
+				EA5A2A7D1DD524BA00977564 /* IAuthor.swift */,
+				EA5A2A7E1DD524BA00977564 /* IBag.swift */,
+				EA5A2A821DD524BA00977564 /* IGame.swift */,
+				EA5A2A841DD524BA00977564 /* IGSMFactory.swift */,
+				EA5A2A861DD524BA00977564 /* IGSMFactoryProduct.swift */,
+				EA5A2A881DD524BA00977564 /* IItem.swift */,
+				EA5A2A891DD524BA00977564 /* IItemContainer.swift */,
+				EA5A2A8D1DD524BA00977564 /* INamed.swift */,
+				EA5A2A8E1DD524BA00977564 /* IScenarioManager.swift */,
+				EA5A2A901DD524BA00977564 /* ISpace.swift */,
+				EA5A2A921DD524BA00977564 /* IUI.swift */,
+				EA5A2A941DD524BA00977564 /* IWorld.swift */,
+			);
+			name = fw.game_txt;
+			sourceTree = "<group>";
+		};
+		EA5A2AC11DD524FE00977564 /* fw.game_gui */ = {
+			isa = PBXGroup;
+			children = (
+				EA5A2A7F1DD524BA00977564 /* IBagG.swift */,
+				EA5A2A801DD524BA00977564 /* IBrouadcaster.swift */,
+				EA5A2A811DD524BA00977564 /* Icon.swift */,
+				EA5A2A831DD524BA00977564 /* IGameG.swift */,
+				EA5A2A851DD524BA00977564 /* IGSMFactoryG.swift */,
+				EA5A2A871DD524BA00977564 /* IGSMFactoryProductG.swift */,
+				EA5A2A8A1DD524BA00977564 /* IItemContainerG.swift */,
+				EA5A2A8B1DD524BA00977564 /* IItemG.swift */,
+				EA5A2A8C1DD524BA00977564 /* IListener.swift */,
+				EA5A2A8F1DD524BA00977564 /* IScenarioManagerG.swift */,
+				EA5A2A911DD524BA00977564 /* ISpaceG.swift */,
+				EA5A2A931DD524BA00977564 /* IUIG.swift */,
+				EA5A2A951DD524BA00977564 /* IWorldG.swift */,
+			);
+			name = fw.game_gui;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		EA5A2A5D1DD5249B00977564 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5A2A711DD5249B00977564 /* AdventuraFW.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		EA5A2A5F1DD5249B00977564 /* AdventuraFW */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5A2A741DD5249B00977564 /* Build configuration list for PBXNativeTarget "AdventuraFW" */;
+			buildPhases = (
+				EA5A2A5B1DD5249B00977564 /* Sources */,
+				EA5A2A5C1DD5249B00977564 /* Frameworks */,
+				EA5A2A5D1DD5249B00977564 /* Headers */,
+				EA5A2A5E1DD5249B00977564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AdventuraFW;
+			productName = AdventuraFW;
+			productReference = EA5A2A601DD5249B00977564 /* AdventuraFW.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EA5A2A681DD5249B00977564 /* AdventuraFWTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA5A2A771DD5249B00977564 /* Build configuration list for PBXNativeTarget "AdventuraFWTests" */;
+			buildPhases = (
+				EA5A2A651DD5249B00977564 /* Sources */,
+				EA5A2A661DD5249B00977564 /* Frameworks */,
+				EA5A2A671DD5249B00977564 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA5A2A6C1DD5249B00977564 /* PBXTargetDependency */,
+			);
+			name = AdventuraFWTests;
+			productName = AdventuraFWTests;
+			productReference = EA5A2A691DD5249B00977564 /* AdventuraFWTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA5A2A571DD5249B00977564 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Martin Matějka";
+				TargetAttributes = {
+					EA5A2A5F1DD5249B00977564 = {
+						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+					EA5A2A681DD5249B00977564 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EA5A2A5A1DD5249B00977564 /* Build configuration list for PBXProject "AdventuraFW" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA5A2A561DD5249B00977564;
+			productRefGroup = EA5A2A611DD5249B00977564 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA5A2A5F1DD5249B00977564 /* AdventuraFW */,
+				EA5A2A681DD5249B00977564 /* AdventuraFWTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA5A2A5E1DD5249B00977564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5A2A671DD5249B00977564 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA5A2A5B1DD5249B00977564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5A2AA11DD524BA00977564 /* IBagG.swift in Sources */,
+				EA5A2AA81DD524BA00977564 /* IGSMFactoryProduct.swift in Sources */,
+				EA5A2AAE1DD524BA00977564 /* IListener.swift in Sources */,
+				EA5A2AB91DD524BA00977564 /* Scenario.swift in Sources */,
+				EA5A2AB81DD524BA00977564 /* Limits.swift in Sources */,
+				EA5A2A9F1DD524BA00977564 /* IAuthor.swift in Sources */,
+				EA5A2ABD1DD524BA00977564 /* TypeOfStep.swift in Sources */,
+				EA5A2AB71DD524BA00977564 /* IWorldG.swift in Sources */,
+				EA5A2AB31DD524BA00977564 /* ISpaceG.swift in Sources */,
+				EA5A2A9E1DD524BA00977564 /* IAction.swift in Sources */,
+				EA5A2AA61DD524BA00977564 /* IGSMFactory.swift in Sources */,
+				EA5A2AB21DD524BA00977564 /* ISpace.swift in Sources */,
+				EA5A2AB41DD524BA00977564 /* IUI.swift in Sources */,
+				EA5A2AA21DD524BA00977564 /* IBrouadcaster.swift in Sources */,
+				EA5A2A9D1DD524BA00977564 /* BasicActions.swift in Sources */,
+				EA5A2AAA1DD524BA00977564 /* IItem.swift in Sources */,
+				EA5A2AB61DD524BA00977564 /* IWorld.swift in Sources */,
+				EA5A2AAC1DD524BA00977564 /* IItemContainerG.swift in Sources */,
+				EA5A2AA41DD524BA00977564 /* IGame.swift in Sources */,
+				EA5A2AB11DD524BA00977564 /* IScenarioManagerG.swift in Sources */,
+				EA5A2AA01DD524BA00977564 /* IBag.swift in Sources */,
+				EA5A2AAB1DD524BA00977564 /* IItemContainer.swift in Sources */,
+				EA5A2AB51DD524BA00977564 /* IUIG.swift in Sources */,
+				EA5A2AAF1DD524BA00977564 /* INamed.swift in Sources */,
+				EA5A2ABC1DD524BA00977564 /* TypeOfScenario.swift in Sources */,
+				EA5A2AA71DD524BA00977564 /* IGSMFactoryG.swift in Sources */,
+				EA5A2AA91DD524BA00977564 /* IGSMFactoryProductG.swift in Sources */,
+				EA5A2AAD1DD524BA00977564 /* IItemG.swift in Sources */,
+				EA5A2AA31DD524BA00977564 /* Icon.swift in Sources */,
+				EA5A2A9C1DD524BA00977564 /* AScenarioManager.swift in Sources */,
+				EA5A2AB01DD524BA00977564 /* IScenarioManager.swift in Sources */,
+				EA5A2ABB1DD524BA00977564 /* ScenarioStep.swift in Sources */,
+				EA5A2AA51DD524BA00977564 /* IGameG.swift in Sources */,
+				EA5A2ABA1DD524BA00977564 /* ScenarioErrors.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA5A2A651DD5249B00977564 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA5A2A6F1DD5249B00977564 /* AdventuraFWTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA5A2A6C1DD5249B00977564 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA5A2A5F1DD5249B00977564 /* AdventuraFW */;
+			targetProxy = EA5A2A6B1DD5249B00977564 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EA5A2A721DD5249B00977564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EA5A2A731DD5249B00977564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA5A2A751DD5249B00977564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ML9FUD8KSJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AdventuraFW/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.martinmatejka2.AdventuraFW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EA5A2A761DD5249B00977564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = ML9FUD8KSJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = AdventuraFW/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.martinmatejka2.AdventuraFW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EA5A2A781DD5249B00977564 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ML9FUD8KSJ;
+				INFOPLIST_FILE = AdventuraFWTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.martinmatejka2.AdventuraFWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EA5A2A791DD5249B00977564 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = ML9FUD8KSJ;
+				INFOPLIST_FILE = AdventuraFWTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.martinmatejka2.AdventuraFWTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA5A2A5A1DD5249B00977564 /* Build configuration list for PBXProject "AdventuraFW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5A2A721DD5249B00977564 /* Debug */,
+				EA5A2A731DD5249B00977564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA5A2A741DD5249B00977564 /* Build configuration list for PBXNativeTarget "AdventuraFW" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5A2A751DD5249B00977564 /* Debug */,
+				EA5A2A761DD5249B00977564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA5A2A771DD5249B00977564 /* Build configuration list for PBXNativeTarget "AdventuraFWTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA5A2A781DD5249B00977564 /* Debug */,
+				EA5A2A791DD5249B00977564 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA5A2A571DD5249B00977564 /* Project object */;
+}
